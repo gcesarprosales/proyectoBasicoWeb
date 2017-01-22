@@ -4,6 +4,13 @@ body{
   background: #f1f1f1;
   font-family: monospace;
 }
+.header{
+  margin-top: 0px;
+  background-color: purple;
+  color: white;
+  font-family: sans-serif;
+  font-size: 50px;
+}
 
 ul{
   list-style: none;  /* quitar vinietas o poner otro tipo de vinietas */
@@ -50,10 +57,6 @@ li.activo a{    /*todos los links que se encuentren en modo activo contenidos en
 h1, h2{
   text-align: center;
   padding-top: 20px;
-}
-.cabecera{
-  margin: 0px;
-  background-color: black;
 }
 
 .footer{
