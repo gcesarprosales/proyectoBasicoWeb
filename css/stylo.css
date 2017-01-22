@@ -1,0 +1,127 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background: #f1f1f1;
+  font-family: monospace;
+}
+
+ul{
+  list-style: none;  /* quitar vinietas o poner otro tipo de vinietas */
+}
+
+a{
+  text-decoration: none;  /* quitar el subrayado por default*/
+  color: rgb(0,0,0);
+}
+
+a:hover{   /* cuando le pase el puntero se cambi de color */
+  color: red;
+}
+
+.menu-navegacion a{
+  display: inline-block;
+  width: 100px;
+  height: 20px;
+  padding: 10px;
+  margin: 0px 10px;
+  background: rgb(133, 6, 171);
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+}
+
+.ol li{
+  display: block;
+  font-size: 20px
+}
+
+li{
+  display: inline;
+}
+li:hover a{
+  background: red;
+}
+
+li.activo a{    /*todos los links que se encuentren en modo activo contenidos en las listas*/
+  background: red;
+}
+
+h1, h2{
+  text-align: center;
+  padding-top: 20px;
+}
+.cabecera{
+  margin: 0px;
+  background-color: black;
+}
+
+.footer{
+  background: gray;
+  padding: 20px;
+  height: 60px;
+  bottom: 0px;
+}
+
+.menu-navegacion{
+  text-align: center;
+}
+
+.center{
+  text-align: center;
+}
+
+
+.informacion-justificada {
+    width: 30%;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: justify;
+}
+
+.img{
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border:none;
+}
+
+.p{
+  font-size: 150%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.caja{
+  max-width: 800px;
+  text-align: center;
+}
+.imagen2{
+
+  box-shadow: 10px 10px 5px #000;  /*Sombrear la imagen*/
+  margin-bottom: 3%;
+}
+.imagen3{
+  width: 100%;
+  display: block;
+}
+.primero{
+  margin: 3%;
+  font-weight: 900;
+}
+
+.segundo{
+  margin: 3%;
+  color: rgb(51, 53, 57);
+  margin-bottom: 25px;
+}
+.notas{
+  background: white;
+}
+.fondo_gris{
+  background-color: rgba(198, 192, 192, 0.6);  /*ctrl+alt+c para sacar la paleta de clores*/
+  padding: 3%;
+}
